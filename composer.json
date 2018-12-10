@@ -1,0 +1,14 @@
+{
+    "name": "coolrunner/dhlactivetracing",
+    "description": "Package generated from https://actws.dhl.com/shipmentTrackingWsV4/services/shipmentTrackingWsV4?wsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "./src/"
+        }
+    }
+}
